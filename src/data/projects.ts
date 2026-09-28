@@ -4,9 +4,9 @@ export const projects: Project[] = [
   {
     id: 'sign4all',
     owner: 'SamuOsorio',
-    repo: 'Sign4All',
+    repo: 'SignAI',
     techStack: ['Flutter', 'FastAPI', 'Whisper', 'spaCy', 'Blender'],
-    dateLabel: 'May 2026',
+    dateLabel: 'May 2026 – Present',
   },
   {
     id: 'svmClassifier',
@@ -28,5 +28,12 @@ export const projects: Project[] = [
     repo: 'Extra-editable',
     techStack: ['Angular', 'Django REST Framework', 'PostgreSQL', 'Docker', 'Nginx', 'Ansible'],
     dateLabel: 'Jun 2026',
+  },
+  {
+    id: 'omarchyPowerMenu',
+    owner: 'SamuOsorio',
+    repo: 'omarchy-power-menu',
+    techStack: ['QML', 'Omarchy', 'Hyprland'],
+    dateLabel: 'Sep 2026',
   },
 ];

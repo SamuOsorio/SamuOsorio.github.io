@@ -3,6 +3,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { Hero } from './components/hero/Hero';
+import { RedBullSpotlight } from './components/spotlight/RedBullSpotlight';
 import { SkillsSection } from './components/skills/SkillsSection';
 import { ProjectsSection } from './components/projects/ProjectsSection';
 import { EducationSection } from './components/education/EducationSection';
@@ -16,6 +17,7 @@ function App() {
           <Navbar />
           <main>
             <Hero />
+            <RedBullSpotlight />
             <SkillsSection />
             <ProjectsSection />
             <EducationSection />

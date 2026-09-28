@@ -3,7 +3,7 @@ export const profile = {
   location: 'Bogotá, Colombia',
   email: 'osorio.samuel@gmail.com',
   phone: '+57 322 231 3633',
-  linkedin: 'https://linkedin.com/in/samuel-osorio-rodriguez',
+  linkedin: 'https://www.linkedin.com/in/samuel-osorio-rodriguez-615006404/',
   github: 'https://github.com/SamuOsorio',
   photoPath: '/images/profile-placeholder.svg',
   cvPath: {

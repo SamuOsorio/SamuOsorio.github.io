@@ -10,12 +10,6 @@ export const education: EducationEntry = {
 
 export const achievements: Achievement[] = [
   {
-    id: 'redBullBasement',
-    titleKey: 'education.achievements.redBull.title',
-    descriptionKey: 'education.achievements.redBull.description',
-    date: '2026',
-  },
-  {
     id: 'redHatCert',
     titleKey: 'education.achievements.redHat.title',
     descriptionKey: 'education.achievements.redHat.description',

@@ -32,8 +32,8 @@
     "updated": "Updated",
     "liveDataUnavailable": "Live GitHub data unavailable right now",
     "sign4all": {
-      "title": "Sign4All",
-      "description": "A speech-to-Colombian Sign Language (LSC) translator prototype built in a 3-person team: a cross-platform Flutter app with a FastAPI backend, an STT (Whisper) + NLP (spaCy) pipeline, and a 3D avatar (Blender, Manny UE5) built on an initial 10-sign corpus. Winner of Red Bull Basement Colombia 2026 among 1,000+ ideas; team finished top 8 at the international final in San Francisco, with 40+ countries competing."
+      "title": "Sign4All → SignAI",
+      "description": "A speech-to-Colombian Sign Language (LSC) translator prototype built in a 3-person team: a cross-platform Flutter app with a FastAPI backend, an STT (Whisper) + NLP (spaCy) pipeline, and a 3D avatar (Blender, Manny UE5) built on an initial 10-sign corpus. Winner of Red Bull Basement Colombia 2026 among 1,000+ ideas; team finished top 8 at the international final in San Francisco, with 40+ countries competing. Development continues under the SignAI repository."
     },
     "svmClassifier": {
       "title": "Elite Player Classifier (SVM)",
@@ -46,6 +46,10 @@
     "extraEditable": {
       "title": "Extra Editable",
       "description": "A real-time collaborative code editing platform built with a 7-person team, integrating Hocuspocus/Yjs for concurrent synchronization over an Angular editor with a Django REST Framework backend. An Nginx load-balancing gateway for 3 replicated instances, deployed with Docker and Ansible across 6 VMs, with JWT authentication and an LSP service for autocompletion."
+    },
+    "omarchyPowerMenu": {
+      "title": "Omarchy Power Menu",
+      "description": "A published plugin for the Omarchy Linux desktop: a single bar button that opens a keyboard-navigable session menu with screensaver, lock, suspend, hibernate, log out, reboot, and shut down actions."
     }
   },
   "education": {
@@ -54,15 +58,22 @@
     "gpaLabel": "Cumulative GPA",
     "coursework": "Relevant coursework: Data Structures, Databases, Software Architecture, Artificial Intelligence, Distributed Systems, Numerical Methods.",
     "achievements": {
-      "redBull": {
-        "title": "Winner, Red Bull Basement Colombia 2026",
-        "description": "Won among 1,000+ ideas; team finished top 8 at the international final in San Francisco, with 40+ countries competing."
-      },
       "redHat": {
         "title": "Red Hat System Administration I",
         "description": "Professional certification in Linux system administration."
       }
     }
+  },
+  "spotlight": {
+    "eyebrow": "Featured achievement",
+    "heading": "Winner, Red Bull Basement Colombia 2026",
+    "story": "Sign4All, a prototype that translates speech into Colombian Sign Language (LSC), won Red Bull Basement Colombia 2026 among more than 1,000 submitted ideas. The project went on to represent Colombia at the international final in San Francisco, finishing in the top 8 out of teams from over 40 countries. Development continues today under SignAI.",
+    "stats": {
+      "ideas": "ideas competing",
+      "rank": "worldwide final, San Francisco",
+      "countries": "countries represented"
+    },
+    "cta": "See the project"
   },
   "contact": {
     "heading": "Get in touch",
