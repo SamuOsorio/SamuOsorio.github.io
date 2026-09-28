@@ -41,12 +41,12 @@ export function RedBullSpotlight() {
           </div>
 
           {redBullPhotos.length > 0 && (
-            <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
-              {redBullPhotos.map((src) => (
+            <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {redBullPhotos.map((photo) => (
                 <img
-                  key={src}
-                  src={src}
-                  alt=""
+                  key={photo.src}
+                  src={photo.src}
+                  alt={t(photo.altKey as TranslationKey)}
                   className="aspect-square w-full rounded-xl object-cover shadow-sm"
                 />
               ))}

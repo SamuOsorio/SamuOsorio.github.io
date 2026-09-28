@@ -9,10 +9,13 @@ export const redBullStats: RedBullStat[] = [
   { value: '40+', labelKey: 'spotlight.stats.countries' },
 ];
 
-/**
- * Photo paths for the Red Bull Basement spotlight gallery.
- * Drop images into public/images/redbull/ and list their paths here
- * (e.g. '/images/redbull/team-stage.jpg'); the section only renders
- * a gallery when this array is non-empty.
- */
-export const redBullPhotos: string[] = [];
+export interface RedBullPhoto {
+  src: string;
+  altKey: string;
+}
+
+export const redBullPhotos: RedBullPhoto[] = [
+  { src: '/images/redbull/sign4all-team-stage.webp', altKey: 'spotlight.photos.teamStage' },
+  { src: '/images/redbull/redbull-basement-winners.jpg', altKey: 'spotlight.photos.winners' },
+  { src: '/images/redbull/redbull-basement-final-nacional.jpg', altKey: 'spotlight.photos.finalNacional' },
+];
