@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Hi, I'm",
+    "role": "Systems Engineering Student · AI/ML & Data Analytics",
+    "bio": "Final-year Systems Engineering student at Pontificia Universidad Javeriana, focused on Artificial Intelligence, Machine Learning, and Data Analytics. I build academic projects spanning machine learning models, distributed systems, and collaborative web applications, and I thrive in multidisciplinary teamwork under pressure.",
+    "downloadCv": "Download CV",
+    "contactMe": "Contact me"
+  },
+  "skills": {
+    "heading": "Technical Skills",
+    "subheading": "Tools and technologies I use to design, build, and ship software.",
+    "categories": {
+      "languages": "Languages",
+      "aiMl": "AI / Machine Learning",
+      "aiAgents": "AI Agent Development",
+      "frameworks": "Frameworks / Libraries",
+      "databases": "Databases",
+      "toolsCloud": "Tools / Cloud"
+    }
+  },
+  "projects": {
+    "heading": "Projects",
+    "subheading": "A selection of academic projects, with live data pulled straight from GitHub.",
+    "viewRepo": "View repository",
+    "stars": "stars",
+    "updated": "Updated",
+    "liveDataUnavailable": "Live GitHub data unavailable right now",
+    "sign4all": {
+      "title": "Sign4All",
+      "description": "A speech-to-Colombian Sign Language (LSC) translator prototype built in a 3-person team: a cross-platform Flutter app with a FastAPI backend, an STT (Whisper) + NLP (spaCy) pipeline, and a 3D avatar (Blender, Manny UE5) built on an initial 10-sign corpus. Winner of Red Bull Basement Colombia 2026 among 1,000+ ideas; team finished top 8 at the international final in San Francisco, with 40+ countries competing."
+    },
+    "svmClassifier": {
+      "title": "Elite Player Classifier (SVM)",
+      "description": "An independently developed SVM classifier (scikit-learn) to distinguish \"elite\" vs. \"standard\" players from 6 performance variables, comparing linear and RBF kernels. Hyperparameters tuned with GridSearchCV and 5-fold cross-validation, evaluated with a confusion matrix and ROC/AUC curve."
+    },
+    "distributedLibrary": {
+      "title": "Distributed Library Management System",
+      "description": "A distributed book lending/return system built in a 4-person team using gRPC and Protocol Buffers, documented with UML component and sequence diagrams. A containerized Flask app deployed on a local Kubernetes cluster, configuring autoscaling, rolling updates, and self-healing."
+    },
+    "extraEditable": {
+      "title": "Extra Editable",
+      "description": "A real-time collaborative code editing platform built with a 7-person team, integrating Hocuspocus/Yjs for concurrent synchronization over an Angular editor with a Django REST Framework backend. An Nginx load-balancing gateway for 3 replicated instances, deployed with Docker and Ansible across 6 VMs, with JWT authentication and an LSP service for autocompletion."
+    }
+  },
+  "education": {
+    "heading": "Education & Achievements",
+    "degree": "Systems Engineering",
+    "gpaLabel": "Cumulative GPA",
+    "coursework": "Relevant coursework: Data Structures, Databases, Software Architecture, Artificial Intelligence, Distributed Systems, Numerical Methods.",
+    "achievements": {
+      "redBull": {
+        "title": "Winner, Red Bull Basement Colombia 2026",
+        "description": "Won among 1,000+ ideas; team finished top 8 at the international final in San Francisco, with 40+ countries competing."
+      },
+      "redHat": {
+        "title": "Red Hat System Administration I",
+        "description": "Professional certification in Linux system administration."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "invite": "I'm open to internships, collaborations, and interesting problems to work on. Feel free to reach out.",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "theme": {
+    "toggleToLight": "Switch to light mode",
+    "toggleToDark": "Switch to dark mode"
+  },
+  "language": {
+    "toggleLabel": "Switch language",
+    "current": "EN"
+  }
+}

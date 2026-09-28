@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "kicker": "Hola, soy",
+    "role": "Estudiante de Ingeniería de Sistemas · IA/ML y Analítica de Datos",
+    "bio": "Estudiante de último año de Ingeniería de Sistemas en la Pontificia Universidad Javeriana, enfocado en Inteligencia Artificial, Machine Learning y Analítica de Datos. Desarrollo proyectos académicos de modelos de aprendizaje automático, sistemas distribuidos y aplicaciones web colaborativas, y me desempeño bien en trabajo en equipo multidisciplinario bajo presión.",
+    "downloadCv": "Descargar CV",
+    "contactMe": "Contáctame"
+  },
+  "skills": {
+    "heading": "Habilidades Técnicas",
+    "subheading": "Herramientas y tecnologías que uso para diseñar, construir y entregar software.",
+    "categories": {
+      "languages": "Lenguajes",
+      "aiMl": "IA / Machine Learning",
+      "aiAgents": "Desarrollo con Agentes de IA",
+      "frameworks": "Frameworks / Librerías",
+      "databases": "Bases de Datos",
+      "toolsCloud": "Herramientas / Cloud"
+    }
+  },
+  "projects": {
+    "heading": "Proyectos",
+    "subheading": "Una selección de proyectos académicos, con datos en vivo directamente desde GitHub.",
+    "viewRepo": "Ver repositorio",
+    "stars": "estrellas",
+    "updated": "Actualizado",
+    "liveDataUnavailable": "Datos en vivo de GitHub no disponibles por ahora",
+    "sign4all": {
+      "title": "Sign4All",
+      "description": "Prototipo de traductor de voz a Lengua de Señas Colombiana (LSC), desarrollado en equipo de 3 personas: app multiplataforma en Flutter con backend en FastAPI, pipeline de STT (Whisper) + NLP (spaCy), y avatar 3D (Blender, Manny UE5) sobre un corpus inicial de 10 señas. Ganador de Red Bull Basement Colombia 2026 entre más de 1,000 ideas; el equipo quedó finalista top 8 en la final internacional en San Francisco, con más de 40 países participantes."
+    },
+    "svmClassifier": {
+      "title": "Clasificador de Jugadores de Élite (SVM)",
+      "description": "Clasificador SVM (scikit-learn) desarrollado de forma independiente para distinguir jugadores \"élite\" vs. \"estándar\" a partir de 6 variables de rendimiento, comparando kernels lineal y RBF. Hiperparámetros optimizados con GridSearchCV y validación cruzada de 5 folds, evaluado con matriz de confusión y curva ROC/AUC."
+    },
+    "distributedLibrary": {
+      "title": "Sistema Distribuido de Gestión de Biblioteca",
+      "description": "Sistema distribuido de préstamo/devolución de libros, desarrollado en equipo de 4 personas usando gRPC y Protocol Buffers, documentado con diagramas UML de componentes y secuencia. Aplicación Flask contenedorizada y desplegada en un clúster local de Kubernetes, configurando autoescalado, actualizaciones continuas y auto-recuperación."
+    },
+    "extraEditable": {
+      "title": "Extra Editable",
+      "description": "Plataforma de edición colaborativa de código en tiempo real, desarrollada con un equipo de 7 personas, integrando Hocuspocus/Yjs para sincronización concurrente sobre un editor en Angular con backend en Django REST Framework. Gateway de balanceo de carga con Nginx para 3 instancias replicadas, desplegado con Docker y Ansible en 6 VMs, con autenticación JWT y un servicio LSP para autocompletado."
+    }
+  },
+  "education": {
+    "heading": "Educación y Logros",
+    "degree": "Ingeniería de Sistemas",
+    "gpaLabel": "Promedio acumulado",
+    "coursework": "Cursos relevantes: Estructuras de Datos, Bases de Datos, Arquitectura de Software, Inteligencia Artificial, Sistemas Distribuidos, Métodos Numéricos.",
+    "achievements": {
+      "redBull": {
+        "title": "Ganador, Red Bull Basement Colombia 2026",
+        "description": "Ganador entre más de 1,000 ideas; el equipo quedó finalista top 8 en la final internacional en San Francisco, con más de 40 países participantes."
+      },
+      "redHat": {
+        "title": "Red Hat System Administration I",
+        "description": "Certificación profesional en administración de sistemas Linux."
+      }
+    }
+  },
+  "contact": {
+    "heading": "Hablemos",
+    "invite": "Estoy abierto a prácticas, colaboraciones y problemas interesantes en los que trabajar. No dudes en escribirme.",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "theme": {
+    "toggleToLight": "Cambiar a modo claro",
+    "toggleToDark": "Cambiar a modo oscuro"
+  },
+  "language": {
+    "toggleLabel": "Cambiar idioma",
+    "current": "ES"
+  }
+}

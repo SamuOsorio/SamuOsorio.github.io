@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+/* Tailwind v4 defaults `dark:` to prefers-color-scheme; this repoints it to
+   our class-based ThemeContext toggle on <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased;
+}
+
+/* Smooth color swap on theme toggle, without having to tag every element. */
+*,
+::before,
+::after {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
